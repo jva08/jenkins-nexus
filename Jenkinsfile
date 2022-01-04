@@ -38,15 +38,15 @@ pipeline {
                             
                             protocol: 'http',
 
-                            nexusUrl: '3.143.241.190:8081',
+                            nexusUrl: '3.144.187.233:8081',
 
                             groupId: 'pom.com.mycompany.app',
 
                             version: 'pom.1.0-SNAPSHOT',
 
-                            repository: 'maven-snapshots',
+                            repository: 'maven-repo',
 
-                            credentialsId: 'nexusid',
+                            credentialsId: 'nexus_id',
 
                             artifacts: [
 
